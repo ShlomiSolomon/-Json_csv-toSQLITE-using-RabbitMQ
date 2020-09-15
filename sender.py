@@ -1,11 +1,9 @@
 import pika
 import json
 import os
-import sys
 
 
 # THIS .PY CLASS SENDS A JSON MSG TO THE MQ WITH FILE PATH FILE NAME AND FILE FORMAT
-print(sys.version)  # parentheses necessary in python 3.
 
 # db path : user have to send the full path
 #NOTE: if the path will look like that  : /user/Folder/filename , then we can't reach the file and won't know the format.
